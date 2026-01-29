@@ -1,0 +1,64 @@
+.color {
+  color: red;
+}
+
+.center {
+  color: red;
+  text-align: center;
+}
+
+.right {
+  color: green;
+  text-align: right;
+}
+
+.left {
+  color: blue;
+  text-align: left;
+}
+
+.justify {
+  text-align: justify;
+  color: brown;
+  background-color: black;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.overline {
+  text-decoration: overline;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.indent {
+    text-indent: 30px;
+    letter-spacing: 1px;
+    word-spacing: 10px;
+    line-height: 35px;
+}
+
+
+.letter-spacing {
+  letter-spacing: 1px;
+}   
+
+.whitespace {
+  white-space: pre-line;
+}

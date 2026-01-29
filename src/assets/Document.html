@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Document_files/main.css">
+</head>
+<body>
+    <h1 class="color">CSS Text</h1>
+    <p class="center">Center</p>
+    <p class="right">Right</p>
+    <p class="left">Left</p>
+
+    <p class="justify"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor neque quidem quae molestiae. Dolores, consequatur! Aspernatur labore suscipit sequi totam, beatae, tenetur dicta praesentium voluptatum veniam vero neque aliquid inventore eaque qui, cum repellat? Voluptate similique esse et possimus, perspiciatis eveniet aperiam temporibus ab vel natus tempore cumque veritatis rerum architecto, expedita magni harum, repellat blanditiis obcaecati unde rem quis? Doloribus perferendis mollitia error facilis quos. Illo corrupti asperiores officia earum ad debitis cumque error dolor, necessitatibus repudiandae ex! Maxime esse ipsam quasi dicta, inventore totam ad dolore eaque aperiam itaque quidem asperiores, cupiditate eveniet beatae rerum autem aut id!</p>
+
+<p class="underline"> underline</p>
+<p class="line-through"> line-through</p>
+<p class="overline"> overline</p>
+<a href="http://127.0.0.1:5500/index.html">instagram</a>
+
+
+<p class="capitalize">capitalize</p>
+<p class="lowercase">lowercase</p>
+<p class="uppercase">uppercase</p>
+<p class="indent">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio fugit doloribus ea a ipsum, tempore voluptate expedita consequuntur in blanditiis ipsam ab. Autem culpa, aliquid explicabo quisquam exercitationem quae quo deleniti eveniet eaque est maxime repudiandae modi vel unde vero iusto nam magnam ducimus inventore, quam nulla dicta dignissimos! Distinctio.</p>
+<p class="letter-spacing">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum hic explicabo iure voluptatibus, quod nisi similique inventore quisquam voluptates quam nobis itaque, animi amet eos, adipisci voluptatem. Error, deleniti omnis.</p>
+<p class="whitespace">Lorem    ipsum dolor sit amet, consectetur adipisicing elit. Quasi, voluptatibus!</p>
+
+
+
+
+
+
+
+
+
+
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+
+
+
+
+</body></html>
